@@ -12,10 +12,10 @@ Approaches or solutions that have been tried before on similar projects.
   - **Outcomes**:
   - **Relation to the Project**:
 
-- **Source 2**: [Title of Source 2]
+- **Source 2**: [New global seamount census from altimetry-derived gravity data]
 
-  - **[Link]()**
-  - **Objective**:
+  - **[[Link](https://academic.oup.com/gji/article/186/2/615/588187?login=false)](https://academic.oup.com/gji/article/186/2/615/588187?login=false)**
+  - **Objective**:The Global Seamount Database: http://www.soest.hawaii.edu/PT/SMTS/main.html
   - **Methods**:
   - **Outcomes**:
   - **Relation to the Project**:

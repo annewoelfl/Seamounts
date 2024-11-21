@@ -4,9 +4,9 @@ Approaches or solutions that have been tried before on similar projects.
 
 **Summary of Each Work**:
 
-- **Source 1**: [Title of Source 1]
+- **Source 1**: [Discovery and analysis of topographic features using learning algorithms: A seamount case study]
 
-  - **[Link]()**
+  - **[[Link](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/grl.50615)](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/grl.50615)**
   - **Objective**:
   - **Methods**:
   - **Outcomes**:

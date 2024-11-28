@@ -4,7 +4,7 @@ Approaches or solutions that have been tried before on similar projects.
 
 **Summary of Each Work**:
 
-- **Source 1**: [Discovery and analysis of topographic features using learning algorithms: A seamount case study]
+- **Source 1**: Discovery and analysis of topographic features using learning algorithms: A seamount case study
 
   - **[[Link](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/grl.50615)](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/grl.50615)**
 
@@ -20,7 +20,7 @@ The method effectively identified seamounts with a lower false positive rate com
 **Relation to the Project:**
 This study provides insights into using learning algorithms for feature recognition in geospatial data. The method of leveraging autoencoders and preprocessing techniques is directly applicable to projects requiring automation of feature extraction, such as identifying terrain anomalies in seabed datasets.
 
-- **Source 2**: [New global seamount census from altimetry-derived gravity data]
+- **Source 2**: New global seamount census from altimetry-derived gravity data
 
   - **[[Link](https://academic.oup.com/gji/article/186/2/615/588187?login=false)](https://academic.oup.com/gji/article/186/2/615/588187?login=false)**
 

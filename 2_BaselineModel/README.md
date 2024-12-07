@@ -17,7 +17,3 @@ While high resolution data was preferred, it only existed as asymmetric, diagona
 5. **Challenges and Errors**:
    - to find an appropriate baseline model (because this kind of task was not known to us in connection with image recognition before)
    - 
-
-6. **Model Definition and Evaluation**: (Discuss the models you've implemented, the feature engineering steps you've taken, and how you evaluated their performance. Include a screenshot of the code you used to implement the model.)
-
-6. **Results**: (Present the results in a clear and easy-to-understand format. Use tables, charts, or any other visual aids that you find appropriate.)

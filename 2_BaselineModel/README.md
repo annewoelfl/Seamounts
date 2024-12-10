@@ -10,9 +10,11 @@ While high resolution data was preferred, it only existed as asymmetric, diagona
 
 2. **Baseline Model**: While first trials were actually made with a simple CNN, we settled for a simple logistic regression and, as an alternative, for a random forest model to serve as our baseline approach.
 
-3. **Model Definition and Evaluation**: (Discuss the models you've implemented, the feature engineering steps you've taken, and how you evaluated their performance. Include a screenshot of the code you used to implement the model.)
+3. **Model Definition and Evaluation**: Exemplary I will here present the results of running the baseline model on a set of ~2500 seamount images generated according to a database of seamounts (https://data.unep-wcmc.org/datasets/41) and ~1000 non_seamount images. This imbalance was adressed with undersampling the majority class. Further the images were resized and normalized. (Discuss the models you've implemented, the feature engineering steps you've taken, and how you evaluated their performance. Include a screenshot of the code you used to implement the model.)
 
-4. **Results/Learnings for the rest of the project**: (Present the results in a clear and easy-to-understand format. Use tables, charts, or any other visual aids that you find appropriate.)
+4. **Results/Learnings for the rest of the project**:
+   - Results: The model's precision and recall varied between classes, with high recall for "without_seamount" but lower recall for "with_seamount". Overall accuracy was decent but suggests the model could benefit from improvements.
+   - Learnings: Logistic Regression may not be the best model for image data. Exploring more complex models like Convolutional Neural Networks (CNNs) would likely yield better results. Additionally, class balancing techniques like SMOTE and hyperparameter tuning could improve performance.
 
 5. **Challenges and Errors**:
    - to find an appropriate baseline model (because this kind of task was not known to us in connection with image recognition before)

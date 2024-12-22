@@ -1,4 +1,4 @@
-filename,top_left_x,top_left_y,bottom_right_x,bottom_right_y
+image_name,x_min,y_min,x_max,y_max
 2388515.0.png,136,89,263,268
 2474327.0.png,153,118,245,238
 2556370.0.png,137,99,262,258

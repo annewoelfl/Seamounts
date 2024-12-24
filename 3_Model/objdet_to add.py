@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Path to the folder containing new, unlabeled images
-test_image_dir = "../path_to_unlabeled_images"  # Update with the correct path
+test_image_dir = "./try_these"  # Update with the correct path
 
 # Image size should match the one used during training (256x256)
 IMAGE_SIZE = (256, 256)

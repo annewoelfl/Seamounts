@@ -2,6 +2,7 @@ import os
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
+import random
 
 # Path to the folder containing new, unlabeled images
 test_image_dir = "/workspaces/Seamounts/3_Model/temp_processed_data_241208/with_seamount_manual1"  # Update with the correct path
@@ -45,7 +46,7 @@ def visualize_prediction(image, pred_bbox):
     plt.legend()
     plt.show()
 
-# Load all images from the test directory
+# Load all image paths from the test directory
 test_images = []
 image_names = []
 
@@ -55,8 +56,14 @@ for image_name in os.listdir(test_image_dir):
         test_images.append(image_path)
         image_names.append(image_name)
 
-# Iterate over the test images and make predictions
-for image_path, image_name in zip(test_images, image_names):
+# Select 20 random images from the list of test images
+num_samples = 20
+random_indices = random.sample(range(len(test_images)), num_samples)
+selected_images = [test_images[i] for i in random_indices]
+selected_image_names = [image_names[i] for i in random_indices]
+
+# Iterate over the selected random test images and make predictions
+for image_path, image_name in zip(selected_images, selected_image_names):
     # Load and preprocess the image
     image = load_and_preprocess_image(image_path)
     

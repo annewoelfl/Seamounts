@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Path to the folder containing new, unlabeled images
-test_image_dir = "./try_these"  # Update with the correct path
+test_image_dir = "/workspaces/Seamounts/3_Model/temp_processed_data_241208/with_seamount_manual1"  # Update with the correct path
 
 # Image size should match the one used during training (256x256)
 IMAGE_SIZE = (256, 256)

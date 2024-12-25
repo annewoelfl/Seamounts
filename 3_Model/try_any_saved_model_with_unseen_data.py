@@ -3,12 +3,17 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 import random
+import tensorflow as tf  # Import TensorFlow to load the model
 
 # Path to the folder containing new, unlabeled images
 test_image_dir = "/workspaces/Seamounts/3_Model/temp_processed_data_241208/with_seamount_manual1"  # Update with the correct path
 
 # Image size should match the one used during training (256x256)
 IMAGE_SIZE = (256, 256)
+
+# Load the saved model
+model = tf.keras.models.load_model('objdet_standalone_1_0_model.h5', custom_objects={'huber_loss': huber_loss})
+print("Model loaded successfully!")
 
 # Function to load and preprocess the image
 def load_and_preprocess_image(image_path):

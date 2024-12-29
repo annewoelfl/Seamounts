@@ -103,6 +103,16 @@ Changes Summary for this step:
     MaxPooling Layers: Max pooling layers were added after each convolution to reduce spatial dimensions.
     Dropout Layers: Added additional dropout layers to help prevent overfitting.
 
--k-fold cross validation:
+- k-fold cross validation:
 
--keras tuner:
+- keras tuner:
+
+- even more layers?:
+
+- Attention Mechanism: Add an attention layer (e.g., SEBlock or Spatial Attention):
+
+- L2 Regularization:
+
+- Non-Maximum Suppression (NMS):
+
+- In other models: Ensemble Models, Transfer Learning, Model that can output more than one seamount.

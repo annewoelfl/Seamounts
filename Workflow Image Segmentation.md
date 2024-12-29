@@ -93,4 +93,16 @@ graph TD
 
 - learning rate scheduler: no positive change
 
-- batch normalization: Takes longer
+- batch normalization: Takes longer, weird results, cannot really interpret if it's good or not, but bounding box prediction seems to be worse (lot more 0 IoUs)
+
+- more complex model: Of course takes longer, visibly better results with a positive impact especially on the IoU. Best model so far
+Changes Summary for this step:
+
+    Convolutional Layers: Added more convolutional layers (256 and 512 filters).
+    Fully Connected Layers: Added two fully connected layers (1024 and 512 units) for deeper decision-making.
+    MaxPooling Layers: Max pooling layers were added after each convolution to reduce spatial dimensions.
+    Dropout Layers: Added additional dropout layers to help prevent overfitting.
+
+-k-fold cross validation:
+
+-keras tuner:

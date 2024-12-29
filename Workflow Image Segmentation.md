@@ -91,4 +91,6 @@ graph TD
 
 - higher learning rate(0.01): Takes very long. Doesn't work at all.
 
-- learning rate scheduler:
+- learning rate scheduler: no positive change
+
+- batch normalization: Takes longer

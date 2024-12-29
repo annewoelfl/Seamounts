@@ -67,3 +67,18 @@ graph TD
     %% Style for the new models with black text
     style S fill:#87CEEB,stroke:#000,stroke-width:2px, color:#000
     style T fill:#87CEEB,stroke:#000,stroke-width:2px, color:#000
+
+    %% Add the next model and comment for objdet_standalone_model_1_1
+    S -->|added capability to classify no_seamount| U[objdet_standalone_model_1_1*]
+    
+    %% Comment for objdet_standalone_model_1_1
+    classDef comment fill:#f8f8f8,stroke:none;
+    class U comment;
+    
+    %% Style for objdet_standalone_model_1_1
+    style U fill:#87CEEB,stroke:#000,stroke-width:2px, color:#000
+    U:::comment
+
+```
+\* Steps in Hyperparameter-Tuning:
+- Higher resolution:  

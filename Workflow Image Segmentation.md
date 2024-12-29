@@ -81,4 +81,14 @@ graph TD
 
 ```
 \* Steps in Hyperparameter-Tuning:
-- Higher resolution:  
+- Higher resolution: no significant positive change
+
+- Higher Batch size(32): Takes a lot longer, not significantly better, validation MAE a bit better
+
+- back to batch size 16
+
+- Smaller learning rate(0.0001): worse
+
+- higher learning rate(0.01): Takes very long. Doesn't work at all.
+
+- learning rate scheduler:

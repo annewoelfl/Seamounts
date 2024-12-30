@@ -79,6 +79,18 @@ graph TD
     style U fill:#87CEEB,stroke:#000,stroke-width:2px, color:#000
     U:::comment
 
+    %% Add downward arrow to objdet_standalone_model_1_2 with text
+    U -->|added keras tuner| V[objdet_standalone_model_1_2**]
+
+    %% Style for objdet_standalone_model_1_2
+    style V fill:#87CEEB,stroke:#000,stroke-width:2px, color:#000
+
+    %% Add rightward arrow to objdet_transfer_with_MobileNetV2_model_1_1***
+    U -->|added transfer with MobileNetV2| W[objdet_transfer_with_MobileNetV2_model_1_1***]
+
+    %% Style for objdet_transfer_with_MobileNetV2_model_1_1***
+    style W fill:#87CEEB,stroke:#000,stroke-width:2px, color:#000
+
 ```
 \* Steps in Hyperparameter-Tuning:
 - Higher resolution: no significant positive change
@@ -129,6 +141,8 @@ Changes Summary for this step:
 
 \*\*\*
 
-- MobileNetV2, integration of this Transfer Learning strategy had worse results than the standalone model
+- MobileNetV2, integration of this Transfer Learning strategy had worse results than the standalone model, maybe could be tweaked
 
-- ResNet50
+- ResNet50 produced memory error first and then Kernel and program crashes, so abandoned
+
+- maybe transfer learning with normal image recognition models is not so easily applicable to topographical/bathygraphical data

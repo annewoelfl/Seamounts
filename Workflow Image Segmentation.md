@@ -115,7 +115,7 @@ Changes Summary for this step:
 
 - keras tuner: Does it only run 2 epochs? If yes then loss will still be very high, does that make sense? First trial hyperband:2 max:100 interrupted due to error RAM again.Reduced image size (128x128). Reduced batch size (8). Custom data generator for loading images in batches. Limited the hyperparameter search space to reduce memory consumption. Clearing the Keras session after training to release memory. Now it runs, but this runs forever... after the first 100 iterations (~45min) it switches from 2 to 4 epochs. Aborted, takes too long and uncertain output (due to image size reduction or ending in an error after running 12h, etc.) Probably is a powerful tool but takes too long to just let it run, maybe explore later within very specific bounds so that it doesn't try everything but only certain hyperparameters?
 
-- even more layers?: 
+- even more layers?: tried once, had worse results
 
 - Attention Mechanism: Add an attention layer (e.g., SEBlock or Spatial Attention):
 
@@ -126,3 +126,9 @@ Changes Summary for this step:
 - Image augmentation (in images with object it would need to modify the box as well, this I didn't manage so far)
 
 - In other models: Ensemble Models, Transfer Learning, Model that can output more than one seamount.
+
+\*\*\*
+
+- MobileNetV2, integration of this Transfer Learning strategy had worse results than the standalone model
+
+- ResNet50

@@ -105,6 +105,8 @@ Changes Summary for this step:
 
 - k-fold cross validation: Failed with batch size 16 due to GPU ressource error (is already on best GPU environment available to me). Try with batch size 8 also ressource exhausted. Try with image size 128x128, runs, results not significantly better but could be explored further.
 
+- when trying to revert to previous model configuration I noticed that while the code text can be exactly the same, the model can be built entirely different, like here:![alt text](image.png)
+
 - keras tuner:
 
 - even more layers?:

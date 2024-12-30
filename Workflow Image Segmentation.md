@@ -107,6 +107,12 @@ Changes Summary for this step:
 
 - when trying to revert to previous model configuration I noticed that while the code text can be exactly the same, the model can be built entirely different, like here:![alt text](image.png)
 
+- after copying the previous .ipynb from the git history I did not have this problem again, maybe there was something different in the script after all.
+
+- kept status quo as version 1_1 and continued exploration on version 1_2
+
+\*\*
+
 - keras tuner:
 
 - even more layers?:

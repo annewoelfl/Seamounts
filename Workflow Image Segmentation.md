@@ -103,7 +103,7 @@ Changes Summary for this step:
     MaxPooling Layers: Max pooling layers were added after each convolution to reduce spatial dimensions.
     Dropout Layers: Added additional dropout layers to help prevent overfitting.
 
-- k-fold cross validation:
+- k-fold cross validation: Failed with batch size 16 due to GPU ressource error (is already on best GPU environment available to me). Try with batch size 8 also ressource exhausted
 
 - keras tuner:
 

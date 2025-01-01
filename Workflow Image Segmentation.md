@@ -139,7 +139,9 @@ Changes Summary for this step:
 
 - In other models: Ensemble Models, Transfer Learning, Model that can output more than one seamount.
 
-- tried keras tuner again, let it run for 2h with max 40 epochs, initially gave a worse result than "as is" model. Tried the output hyperparameters for the "as is" model (1_1). Only looking at loss it performed better than before. But the distribution of IoU looks worse. The curves look like it is getting worse after 20 epochs. Trying again for 20 epochs.
+- tried keras tuner again, let it run for 2h with max 40 epochs, initially gave a worse result than "as is" model. Tried the output hyperparameters for the "as is" model (1_1). Only looking at loss it performed better than before. But the distribution of IoU looks worse. The curves look like it is getting worse after 20 epochs. Trying again for 20 epochs. Now model is comparable to 1_1
+
+- optimizing to IoU? Didn't get a working approach so far.
 
 \*\*\*
 

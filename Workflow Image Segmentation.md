@@ -92,7 +92,7 @@ graph TD
     style W fill:#87CEEB,stroke:#000,stroke-width:2px, color:#000
 
 ```
-\* Steps in Hyperparameter-Tuning:
+\* Steps to optimize:
 - Higher resolution: no significant positive change
 
 - Higher Batch size(32): Takes a lot longer, not significantly better, validation MAE a bit better
@@ -123,10 +123,6 @@ Changes Summary for this step:
 
 - kept status quo as version 1_1 and continued exploration on version 1_2
 
-\*\*
-
-- keras tuner: Does it only run 2 epochs? If yes then loss will still be very high, does that make sense? First trial hyperband:2 max:100 interrupted due to error RAM again.Reduced image size (128x128). Reduced batch size (8). Custom data generator for loading images in batches. Limited the hyperparameter search space to reduce memory consumption. Clearing the Keras session after training to release memory. Now it runs, but this runs forever... after the first 100 iterations (~45min) it switches from 2 to 4 epochs. Aborted, takes too long and uncertain output (due to image size reduction or ending in an error after running 12h, etc.) Probably is a powerful tool but takes too long to just let it run, maybe explore later within very specific bounds so that it doesn't try everything but only certain hyperparameters? Okay I tweaked the tuner parameters a bit and now it is finished in 2min without finding anything of value. Maybe somewhere in between.
-
 - even more layers?: tried once, had worse results
 
 - Attention Mechanism: Add an attention layer (e.g., SEBlock or Spatial Attention): Took long, did not converge, bad results
@@ -137,11 +133,13 @@ Changes Summary for this step:
 
 - Image augmentation (in images with object it would need to modify the box as well, this I didn't manage so far)
 
-- In other models: Ensemble Models, Transfer Learning, Model that can output more than one seamount.
+- optimizing to IoU? Didn't get a working approach so far.
+
+\*\*
+
+- keras tuner: Does it only run 2 epochs? If yes then loss will still be very high, does that make sense? First trial hyperband:2 max:100 interrupted due to error RAM again.Reduced image size (128x128). Reduced batch size (8). Custom data generator for loading images in batches. Limited the hyperparameter search space to reduce memory consumption. Clearing the Keras session after training to release memory. Now it runs, but this runs forever... after the first 100 iterations (~45min) it switches from 2 to 4 epochs. Aborted, takes too long and uncertain output (due to image size reduction or ending in an error after running 12h, etc.) Probably is a powerful tool but takes too long to just let it run, maybe explore later within very specific bounds so that it doesn't try everything but only certain hyperparameters? Okay I tweaked the tuner parameters a bit and now it is finished in 2min without finding anything of value. Maybe somewhere in between.
 
 - tried keras tuner again, let it run for 2h with max 40 epochs, initially gave a worse result than "as is" model. Tried the output hyperparameters for the "as is" model (1_1). Only looking at loss it performed better than before. But the distribution of IoU looks worse. The curves look like it is getting worse after 20 epochs. Trying again for 20 epochs. Now model is comparable to 1_1
-
-- optimizing to IoU? Didn't get a working approach so far.
 
 \*\*\*
 
@@ -150,3 +148,7 @@ Changes Summary for this step:
 - ResNet50 produced memory error first and then Kernel and program crashes, so abandoned
 
 - maybe transfer learning with normal image recognition models is not so easily applicable to topographical/bathygraphical data
+
+Future Work:
+
+- Ensemble Models, Transfer Learning, Model that can output more than one seamount. Plus other things of the above mentioned that have not worked yet (e.g. k-fold-cross-validation)

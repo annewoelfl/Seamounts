@@ -152,3 +152,5 @@ Changes Summary for this step:
 Future Work:
 
 - Ensemble Models, Transfer Learning, Model that can output more than one seamount. Plus other things of the above mentioned that have not worked yet (e.g. k-fold-cross-validation)
+
+- Model that can output more than one seamount would be especially necessary, because current model setup does not take a valid prediction on another seamount than the one marked as good result and will penalize it during training so that it might learn the wrong way.

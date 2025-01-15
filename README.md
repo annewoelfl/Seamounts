@@ -1,4 +1,4 @@
-# Seamount porediction based on bathymetry data
+# Seamount prediction based on bathymetry data
 
 ## Repository Link
 
@@ -6,7 +6,7 @@ https://github.com/annewoelfl/Seamounts
 
 ## Description
 
-Use images of bathymetry data and train neuronal network to poredictic if seamount will be seen on provided input images. 
+Use images of bathymetry data and train neuronal network to predict if a seamount is on a provided input image. 
 
 ### Task Type
 
@@ -29,3 +29,4 @@ Image Classification
 ## Cover Image
 
 ![Project Cover Image](CoverImage/cover_image.png) 
+Image generated with DALL-E 3

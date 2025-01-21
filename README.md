@@ -6,17 +6,21 @@ https://github.com/annewoelfl/Seamounts
 
 ## Description
 
-Use images of bathymetry data and train neuronal network to predict if a seamount is on a provided input image. 
+- Less than 30 % of the seafloor has been mapped with high-resolution technology.
+- Seamounts are of particular ecological and economic interest due to their unique ecosystems and mineral resources potential. They can also pose hazards to marine navigation and contribute to tsunami formation.
+- Data from surveys comes piece by piece and is mostly processed manually and subjectively. Machine Learning could help to automate and speed up this process.
+
+The models in this repository use images of bathymetry data and convolutional neural networks to predict if a seamount is on a provided input image. 
 
 ### Task Type
 
-Image Classification
+Computer Vision / Image Classification / Object Detection
 
 ### Results Summary
 
-- **Best Model:** [Name of the best-performing model]
-- **Evaluation Metric:** [e.g., Accuracy, F1-Score, MSE]
-- **Result:** [e.g., 95% accuracy, F1-score of 0.8]
+- **Best Model:** cnn_model_version_1_0
+- **Evaluation Metric:**[Accuracy, F1-Score]
+- **Result:** [e.g., 95% accuracy, F1-score of 0.94]
 
 ## Documentation
 

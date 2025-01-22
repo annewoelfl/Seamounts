@@ -26,11 +26,11 @@ Computer Vision / Image Classification / Object Detection
 
 1. **[Literature Review](0_LiteratureReview/README.md)**
 2. **[Dataset Characteristics](1_DatasetCharacteristics/exploratory_data_analysis.ipynb)**
-3. **[Baseline Model](2_BaselineModel/baseline_model.ipynb)**
-4. **[Model Definition and Evaluation](3_Model/model_definition_evaluation)**
+3. **[Baseline Model](2_BaselineModel/baseline_model_RF.ipynb)**
+4. **[Model Definition and Evaluation](3_Model/CNN_model_1_1.ipynb)**
 5. **[Presentation](4_Presentation/README.md)**
 
 ## Cover Image
 
 ![Project Cover Image](CoverImage/cover_image.png) 
-Image generated with DALL-E 3
+Image generated with DALL-E 3 (based on a prompt requesting the similarity to Caspar David Friedrich: "Der Wanderer über dem Nebelmeer").

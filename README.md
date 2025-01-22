@@ -20,7 +20,7 @@ Computer Vision / Image Classification / Object Detection
 
 - **Best Model:** cnn_model_1_0
 - **Evaluation Metric:**[Accuracy, F1-Score]
-- **Result:** [e.g., 95% accuracy, F1-score of 0.94]
+- **Result:** [95% accuracy, F1-score of 0.94]
 
 ## Documentation
 

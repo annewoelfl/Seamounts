@@ -1,3 +1,5 @@
 # Presentation
 
-**[Slides](name_of_your_file_including_the_presentation_slides)**
+The presentation, which is an elaboration of the project as well as the results, can be found here:
+
+**[Slides](./2025-01-16_ProjectSeamount.pdf)**

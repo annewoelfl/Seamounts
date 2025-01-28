@@ -6,7 +6,7 @@ Notebook with main data analysis found here:
 
 **[Notebook](./exploratory_data_analysis.ipynb)**
 
-Notebook to extract image tiles base on a fixed area in the sea:
+Notebook to extract image tiles based on a fixed area in the sea:
 
 **[Notebook equal tiles](./Dataset%20Generation%20fixed%20sea%20area.ipynb)**
 

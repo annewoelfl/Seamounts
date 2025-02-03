@@ -1,10 +1,6 @@
 # Baseline Model
 
-**[Notebook Random Forest](baseline_model_RF.ipynb)**
-
-**[Notebook Logistic Regression](baseline_model_LR.ipynb)**
-
-
+**[Notebook](baseline_model.ipynb)**
 
 1. **Introduction and data choice**: First trials of a base model were done before we settled on a final way of preparing the data. Several possibilities were regarded:
    - using only hand-selected examples of positive/negative examples (e.g. from a certain area)

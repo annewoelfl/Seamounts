@@ -1,4 +1,4 @@
-# Seamount prediction based on bathymetry data
+# Seamount porediction based on bathymetry data
 
 ## Repository Link
 
@@ -6,31 +6,26 @@ https://github.com/annewoelfl/Seamounts
 
 ## Description
 
-- Less than 30 % of the seafloor has been mapped with high-resolution technology.
-- Seamounts are of particular ecological and economic interest due to their unique ecosystems and mineral resources potential. They can also pose hazards to marine navigation and contribute to tsunami formation.
-- Data from surveys comes piece by piece and is mostly processed manually and subjectively. Machine Learning could help to automate and speed up this process.
-
-The models in this repository use images of bathymetry data and convolutional neural networks to predict if a seamount is on a provided input image. 
+Use images of bathymetry data and train neuronal network to poredictic if seamount will be seen on provided input images. 
 
 ### Task Type
 
-Computer Vision / Image Classification / Object Detection
+Image Classification
 
 ### Results Summary
 
-- **Best Model:** cnn_model_1_0
-- **Evaluation Metric:**[Accuracy, F1-Score]
-- **Result:** [95% accuracy, F1-score of 0.94]
+- **Best Model:** [Name of the best-performing model]
+- **Evaluation Metric:** [e.g., Accuracy, F1-Score, MSE]
+- **Result:** [e.g., 95% accuracy, F1-score of 0.8]
 
 ## Documentation
 
 1. **[Literature Review](0_LiteratureReview/README.md)**
 2. **[Dataset Characteristics](1_DatasetCharacteristics/exploratory_data_analysis.ipynb)**
-3. **[Baseline Model](2_BaselineModel/baseline_model_RF.ipynb)**
-4. **[Model Definition and Evaluation](3_Model/CNN_model_1_1.ipynb)**
+3. **[Baseline Model](2_BaselineModel/baseline_model.ipynb)**
+4. **[Model Definition and Evaluation](3_Model/model_definition_evaluation)**
 5. **[Presentation](4_Presentation/README.md)**
 
 ## Cover Image
 
 ![Project Cover Image](CoverImage/cover_image.png) 
-Image generated with DALL-E 3 (based on a prompt requesting the similarity to Caspar David Friedrich: "Der Wanderer über dem Nebelmeer").
